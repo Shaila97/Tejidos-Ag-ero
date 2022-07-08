@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/*selector de etiquetas*/
+body{
+	font-family: 'Poppins', sans-serif;
+
+h1{
+	color: #ED1E1E;
+	font-family: 'Roboto', sans-serif;
+}
+	
+h3{
+	color: #841AF1;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+
+nav{
+	background-color: rgba(238, 188, 247, .5);
+}
+
+nav	ul{
+	list-style: none;
+}
+
+nav	ul li a{
+	color: #C82DF5;
+	text-decoration: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*selector de ID*/
+#pie{
+	color: red;
+}
