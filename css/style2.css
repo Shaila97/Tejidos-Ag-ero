@@ -17,7 +17,8 @@ body{
 	background-attachment: fixed;
 }
 /* nav */
-nav{
+
+.navbar{
 	width: 100%;
 	background-color: rgba(238, 188, 247, .5);
 	position: sticky;
@@ -27,19 +28,19 @@ nav{
 	justify-content: space-around;
 }
 
-nav ul li{
+.nav-item{
 	list-style: none;
 	display: inline-block;
 	margin: 0 90px;
 }
 
-nav ul li a{
+.nav-link{
 	color: #C82DF5;
 	text-decoration: none;
 	font-size: 2.2rem;
 	font-family: 'Roboto', sans-serif;
 }
-nav ul li a:hover{
+.nav-link:hover{
 color: #000000;
 }
 .divLogo {
@@ -273,56 +274,5 @@ table{
 }
 
 
-/* animaciones */
 
-.linear-gradient{
-	background: linear-gradient(to left, violet, blue);
-}
-
-.transform:hover{
-	transform: translateX( -10px);
-	cursor: pointer;
-	transition: transform 3s;
-}
-
-.rotate:hover{
-	transform: rotateZ(-360deg);
-	cursor: pointer;
-	transition: transform 3s;
-
-}
-
-
-@keyframes animateDiv{
-0%{width: 100px; background-color: #841AF1;}
-25%{width: 150px; background-color: #C82DF5;}
-50%{width: 200px; background-color: #DD10BE;}
-75%{width: 150px; background-color: #ED1E1E;}
-100%{width: 100px; background-color: #F20E0E;}
-
-}
-
-.animate{
-	animation-name: animateDiv;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-	animation-delay: 2s;
-	animation-duration: 5s;
-}
-
-.transition{
-	width: 300px;
-}
-
-.transition :hover{
-cursor: pointer;
-background-color: #841AF1;
-width: 500px;
-border: solid 3px violet;
-}
-
-@keyframes textAlpha{
-	from{ opacity: 0;}
-	to{opacity: 1;}
-}
 
